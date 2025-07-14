@@ -19,7 +19,7 @@ We release the following model that are built on top of [Mistral-Base SFT (7B)](
 
 We release the following model that are built on top of [Llama-3-Instruct (8B)](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) model by training FocalPO on the on-policy [Llama3-ultrafeedbackarmorm](https://huggingface.co/datasets/princeton-nlp/llama3-ultrafeedback-armorm) dataset.   
 
-|               models                    | Alpaca Eval 2.0 LC |  AH  | 
+|               models                    | Alpaca Eval 2.0 LC |  AH WR | 
 |-----------------------------------|:------:|:------:|
 |        [tongliuphysics/Llama-3-8B-Instruct-FocalPO](https://huggingface.co/tongliuphysics/Llama-3-8B-Instruct-FocalPO)       |  54.7   | 34.6 | 
 
