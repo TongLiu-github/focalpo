@@ -2,7 +2,9 @@
 
 Offical code for the paper [FocalPO: Enhancing Preference Optimizing by Focusing on Correct Preference Rankings](https://arxiv.org/abs/2501.06645) (ACL 2025 long paper).  
 
-Core contribution: [Chen et al., 2024](https://arxiv.org/abs/2405.19534) empirically finds that DPO training rarely improves these misranked preference, despite its **gradient** emphasizing on these cases. We add a simple factor to DPO loss to make DPO focus on "**more correct**" (see gradient curve) samples. With the introduced hyperparameter **fixed** (we do not want to over-rely on hyperparameter tuning), it consistently outperforms DPO on Arena-hard and Alpaca Eval.  
+<h3>Core contribution</h3>  
+
+[Chen et al., 2024](https://arxiv.org/abs/2405.19534) empirically finds that DPO training rarely improves these misranked preference, despite its **gradient** emphasizing on these cases. We add a simple factor to DPO loss to make DPO focus on "**more correct**" (see gradient curve) samples. With the introduced hyperparameter **fixed** (we do not want to over-rely on hyperparameter tuning), it consistently outperforms DPO on Arena-hard and Alpaca Eval.  
 
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/698d8854-7b88-4e51-aea5-a809147c4ef8" />
